@@ -1,187 +1,44 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Index</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+pagename: products
+---
 
-	<link rel="icon" href="favicon.ico">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/main.css">
+{% include navigation.html %}
 
-	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-</head>
-<body>
-	<!--[if lt IE 7]>
-		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-
-	<nav role="navigation" class="navbar navbar-fixed-top other-page-header home-page-header">
-		<div class="container">
-		  	<div class="navbar-header">
-			    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			    </button>
-				<a class="navbar-brand navbar-left electra-logo" href="index.html">
-					<img src="img/logo_black.svg" alt="Electra">
-				</a>
-
-				<ul class="visible-xs nav menu-list lang-container navbar-right">
-					<li class="lang-btn first"><a href="#">EN</a></li>
-					<li class="lang-btn"><a href="#">РУ</a></li>
-					<li class="lang-btn"><a href="#">ՀՅ</a></li>
+<div class="container page-body">
+	<div class="row">
+		<div class="col-lg-2 col-md-1"></div>
+		<div class="col-lg-8 col-md-10">
+			<div role="tabpanel">
+				<ul class="nav nav-tabs" role="tablist">
+					{% for category in site.data.categories %}
+					<li role="presentation" class="{% if forloop.index ==  1 %}active{% endif %}">
+						<a href="#cat{{ forloop.index }}" aria-controls="cat{{ forloop.index }}" role="tab" data-toggle="tab">{{ category.name }}</a>
+					</li>
+					{% endfor %}
 				</ul>
 			</div>
 
-			<div class="container collapse navbar-collapse" id="navbarCollapse">
-				<ul class="nav menu-list navbar-nav navbar-right">
-					<li><a href="products.html">Ապրանքների ցանկ</a></li>
-					<li><a href="#">Մեր մասին</a></li>
-					<li><a href="#">Հետադարձ կապ</a></li>
+			<div id="myTabContent" class="tab-content">
+				{% for category in site.data.categories %}
+				<div role="tabpanel" class="tab-pane fade {% if forloop.index ==  1 %}active in{% endif %}" id="cat{{ forloop.index }}" aria-labelledby="home-tab">
 
-					<li class="hidden-xs lang-btn first"><a href="#">EN</a></li>
-					<li class="hidden-xs lang-btn"><a href="#">РУ</a></li>
-					<li class="hidden-xs lang-btn"><a href="#">ՀՅ</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<div class="container page-body">
-		<div class="row">
-			<div class="col-lg-2 col-md-1"></div>
-			<div class="col-lg-8 col-md-10">
-				<div role="tabpanel">
-					<ul class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Ջահեր</a></li>
-						<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Վարդակներ</a></li>
-						<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Լուսամփոփներ</a></li>
-						<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Տորշերներ</a></li>
-						<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Ապահովիչներ</a></li>
-						<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Պատի լուսատուներ</a></li>
-<!-- 				
-						Գիպսաստվարաթղթե -->
-					</ul>
-				</div>
-
-				<div id="myTabContent" class="tab-content">
-					<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
-						<div class="row product-row">
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="box">
-									<a href="#">
-										<img src="img/alexander.jpg">
-										<p>Name</p>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="box">
-									<a href="#">
-										<img src="img/alexander.jpg">
-										<p>Name</p>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="box">
-									<a href="#">
-										<img src="img/alexander.jpg">
-										<p>Name</p>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="box">
-									<a href="#">
-										<img src="img/alexander.jpg">
-										<p>Name</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="row product-row">
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="box">
-									<a href="#">
-										<img src="img/alexander.jpg">
-										<p>Name</p>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="box">
-									<a href="#">
-										<img src="img/alexander.jpg">
-										<p>Name</p>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="box">
-									<a href="#">
-										<img src="img/alexander.jpg">
-										<p>Name</p>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="box">
-									<a href="#">
-										<img src="img/alexander.jpg">
-										<p>Name</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="pages">
-							<nav>
-								<ul class="pagination">
-    								<li>
-										<a href="#" aria-label="Previous">
-										  <span aria-hidden="true">&laquo;</span>
-										</a>
-    								</li>
-    								<li><a href="#">1</a></li>
-    								<li><a href="#">2</a></li>
-    								<li><a href="#">3</a></li>
-    								<li><a href="#">4</a></li>
-    								<li><a href="#">5</a></li>
-    								<li>
-    									<a href="#" aria-label="Next">
-    										<span aria-hidden="true">&raquo;</span>
-    									</a>
-    								</li>
-    							</ul>
-							</nav>
+					{% for product in category.products %}
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="box">
+							<a href="#">
+								<img style="background-image: url(/img/products/{{ product.img }})">
+								<p>{{ product.name }}</p>
+							</a>
 						</div>
 					</div>
-					<div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab"></div>
-					<div role="tabpanel" class="tab-pane fade" id="messages" aria-labelledby="messages-tab"></div>
-					<div role="tabpanel" class="tab-pane fade" id="settings" aria-labelledby="settings-tab"></div>
-				</div>
+					{% endfor %}
 
-						
-				<div class="col-lg-2 col-md-1"></div>
+				</div>
+				{% endfor %}
 			</div>
+
+			<div class="col-lg-2 col-md-1"></div>
 		</div>
 	</div>
-
-
-
-
-
-	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-</body>
-</html>
+</div>

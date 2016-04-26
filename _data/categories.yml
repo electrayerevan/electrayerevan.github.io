@@ -1,0 +1,30 @@
+- name: Ջահեր
+  products:
+    - img: alexander.jpg
+      name: Lyustra
+    - img: valdo.jpg
+      name: valod
+    - img: alexander.jpg
+      name: Lyustra
+    - img: alexander.jpg
+      name: Lyustra
+- name: Վարդակներ
+  products:
+    - img: alexander.jpg
+      name: Lyustra
+- name: Լուսամփոփներ
+  products:
+    - img: alexander.jpg
+      name: Lyustra
+- name: Տորշերներ
+  products:
+    - img: alexander.jpg
+      name: Lyustra
+- name: Ապահովիչներ
+  products:
+    - img: alexander.jpg
+      name: Lyustra
+- name: Պատի լուսատուներ
+  products:
+    - img: alexander.jpg
+      name: Lyustra
