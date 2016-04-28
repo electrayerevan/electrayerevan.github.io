@@ -216,7 +216,7 @@
   products:
     - img: accademy_pt1_zo_425x425.jpg
       name: ACCADEMY
-    - img: atlas pt1.jpg
+    - img: atlaspt1.jpg
       name: ATLAS
     - img: biva-50_pt_zo_425x425.jpg
       name: BIVA
@@ -224,7 +224,7 @@
       name: COFFEE
     - img: daddy_pt1_cromo_zo_425x425.jpg
       name: DADDY
-    - img: deco pt1.jpg
+    - img: decopt1.jpg
       name: DECO
     - img: dora_pt1_zo_425x425.jpg
       name: DORA
@@ -256,8 +256,18 @@
       name: QUEEN
     - img: rain_pt2_zo_425x425.jpg
       name: RAIN
-    - img: tumba pt1.jpg
+    - img: tumbapt1.jpg
       name: TUMBA
+    - img: torsher1.jpg
+      name: RECCAGNI ANGELO
+    - img: torsher2.jpg
+      name: RECCAGNI ANGELO
+    - img: torsher3.jpg
+      name: RECCAGNI ANGELO
+    - img: torsher4.jpg
+      name: RECCAGNI ANGELO
+    - img: torsher.jpg
+      name: RECCAGNI ANGELO
 - name: Ապահովիչներ
   products:
     - img: alexander.jpg
