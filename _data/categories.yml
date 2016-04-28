@@ -214,8 +214,35 @@
       name: Lyustra
 - name: Տորշերներ
   products:
-    - img: alexander.jpg
-      name: Lyustra
+    - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      - img: accademy_pt1_zo_425x425.jpg
+      name: accademy
+      
 - name: Ապահովիչներ
   products:
     - img: alexander.jpg
