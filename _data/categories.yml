@@ -215,34 +215,49 @@
 - name: Տորշերներ
   products:
     - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      - img: accademy_pt1_zo_425x425.jpg
-      name: accademy
-      
+      name: ACCADEMY
+    - img: atlas pt1.jpg
+      name: ATLAS
+    - img: biva-50_pt_zo_425x425.jpg
+      name: BIVA
+    - img: coffe_pt1_zo_425x425.jpg
+      name: COFFEE
+    - img: daddy_pt1_cromo_zo_425x425.jpg
+      name: DADDY
+    - img: deco pt1.jpg
+      name: DECO
+    - img: dora_pt1_zo_425x425.jpg
+      name: DORA
+    - img: dorsale_pt1_total_white_zo_425x425.jpg
+      name: DORSALE
+    - img: kraken_pt1_zo_425x425.jpg
+      name: KRAKEN
+    - img: kronplatz_pt1_zo_425x425.jpg
+      name: KORNPLATZ
+    - img: london_pt1_zo_425x425.jpg
+      name: LONDON
+    - img: nastrino_pt2_ang_zo_425x425.jpg
+      name: NASTRINO
+    - img: newton_pt1_nero_zo_425x425.jpg
+      name: NEWTON
+    - img: opera_pt1_zo_425x425.jpg
+      name: OPERA
+    - img: oslo_pt1_zo_425x425.jpg
+      name: OSLO
+    - img: pagoda_pt_gr_zo_425x425.jpg
+      name: PAGODA
+    - img: paris_pt1_zo_425x425.jpg
+      name: PARIS
+    - img: phoenix_pt1_nero_zo_425x425.jpg
+      name: PHOENIX
+    - img: provence_pt1_zo_425x425.jpg
+      name: PROVENCE
+    - img: queen_pt1_zo_425x425.jpg
+      name: QUEEN
+    - img: rain_pt2_zo_425x425.jpg
+      name: RAIN
+    - img: tumba pt1.jpg
+      name: TUMBA
 - name: Ապահովիչներ
   products:
     - img: alexander.jpg
