@@ -350,19 +350,19 @@
       name: ABB
     - img: abb11.jpg
       name: ABB
-      - img: 10A.jpg
+    - img: 10A.jpg
       name: ABB
-      - img: 20A.jpg
+    - img: 20A.jpg
       name: ABB
-      - img: 25A.jpg
+    - img: 25A.jpg
       name: ABB
-      - img: 32A.jpg
+    - img: 32A.jpg
       name: ABB
-      - img: 40A.jpg
+    - img: 40A.jpg
       name: ABB
-      - img: 63A.jpg
+    - img: 63A.jpg
       name: ABB
-      
+    
 - name: Պատի լուսատուներ
   products:
     - img: admiral_ap1_zo_425x425ap2.jpg
