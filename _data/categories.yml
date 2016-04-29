@@ -210,8 +210,68 @@
       name: Lyustra
 - name: Լուսամփոփներ
   products:
-    - img: alexander.jpg
-      name: Lyustra
+    - img: BABYLONTL1.jpg
+      name: BABYLON
+    - img: COLORTL1.jpg
+      name: COLOR
+    - img: COSMOTL1.jpg
+      name: COSMO
+    - img: DECOTL1.jpg
+      name: DECO
+    - img: DIAMONDTL1.jpg
+      name: DIAMOND
+    - img: ERGOLTL1.jpg
+      name: ERGOL
+    - img: HELIKETL1.jpg
+      name: HELIKE
+    - img: HORUSTL1.jpg
+      name: HORUS
+    - img: IONTL1.jpg
+      name: ION
+    - img: JAZZTL1.jpg
+      name: JAZZ
+    - img: MAMBOTL1.jpg
+      name: MAMBO
+    - img: MERCURYTL1.jpg
+      name: MERCURY
+    - img: NARIATL1.jpg
+      name: NARIA
+    - img: RUNATL1.jpg
+      name: RUNA
+    - img: TERRYTL1.jpg
+      name: TERRY
+    - img: VOGUETL1.jpg
+      name: VOGUE
+    - img: WENDYTL1.jpg
+      name: WENDY
+    - img: basket_tl1_zo_425x425.jpg
+      name: BASKET
+    - img: dora_tl1_big_zo_425x425.jpg
+      name: DORA
+    - img: elvis_tl1_argento_zo_425x425.jpg
+      name: ELVIS
+    - img: fiaccola_tl1_ambra_zo_425x425.jpg
+      name: FIACCOLA
+    - img: london_tl1_big_nero_zo_425x425.jpg
+      name: LONDON
+    - img: luce_max_tl1_zo_425x425.jpg
+      name: LUCE MAX
+    - img: micky_tl1_fume_zo_425x425.jpg
+      name: MICKY
+    - img: newton_tl1_nickel_zo_425x425.jpg
+      name: NEWTON
+    - img: prato_tl1-big_emo_zo_425x425.jpg
+      name: PRATO
+    - img: provence_tl1_small_zo_425x425.jpg
+      name: PROVENCE
+    - img: sally_tl1_cromo_zo_425x425.jpg
+      name: SALLY
+    - img: splash_tl1_bianco_zo_425x425.jpg
+      name: SPLASH
+    - img: voga_tl1_nero_zo_425x425.jpg
+      name: VOGA
+    - img: wally_tl1_nero_zo_425x425.jpg
+      name: WALLY
 - name: Տորշերներ
   products:
     - img: accademy_pt1_zo_425x425.jpg
