@@ -82,7 +82,11 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    position: fixed;
+}
+.carousel-inner {
+    & > div, .slick-track, .slick-list {
+        height: inherit;
+    }
 }
 .carousel-control {
     z-index: 1000;
