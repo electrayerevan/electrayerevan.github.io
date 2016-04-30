@@ -9,6 +9,22 @@
     font-style: normal;
 }
 
+.v-center {
+    display: table;
+    margin-left: -150px;
+    @media (max-width: 767px) {
+        display: block;
+    }
+}
+.v-center > * {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    @media (max-width: 767px) {
+        display: block;
+    }
+}
+
 * {
     font-family: 'Roboto', 'Ghea Grapalat', sans-serif;
 }
@@ -225,6 +241,34 @@ body {
 .menu-list.lang-container li.lang-btn.first {
     margin-left: 0;
 }
+
+
+
+.about-page {
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        margin-bottom: 20px;
+    }
+
+    .partners-block {
+        a, a:hover {
+            text-decoration: none;
+        }
+
+        img {
+            height: 50px;
+            padding-right: 20px;
+        }
+    }
+}
+
+
+
 
 @media (min-width: 992px) and (max-width: 1215px) {
     .carousel-caption > .container {
