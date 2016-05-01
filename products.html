@@ -27,8 +27,8 @@ permalink: /products
 					{% for product in category.products %}
 					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="box">
-							<a href="/img/products/{{ product.img }}">
-								<img style="background-image: url(/img/products/{{ product.img }})" alt="{{ product.name }}">
+							<a href="/img/products/{{ product.img }}" alt="{{ product.name }}">
+								<img style="background-image: url(/img/products/{{ product.img }})">
 								<p>{{ product.name }}</p>
 							</a>
 						</div>

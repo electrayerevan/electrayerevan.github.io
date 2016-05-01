@@ -56,7 +56,7 @@ $(function() {
 
 		captionOn = function()
 		{
-			var description = $( 'a[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"] img' );
+			var description = $( 'a[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' );
 			if( description.length > 0 ) {
 				var alt = description.attr( 'alt' );
 				if (alt) {
