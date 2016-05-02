@@ -630,7 +630,7 @@
       name: TERRY AP2
     - img: verdiap2.jpg
       name: VERDI AP2
-- name: ԼԱՄՊԵՐ
+- name: Լամպեր
   products:
     - img: e144wfrovi.jpg
       name: SCHULLER
@@ -672,7 +672,7 @@
       name: SCHULLER
     - img: idealledgu107w.jpg
       name: SCHULLER
-- name: ՀԱՅԵԼԻՆԵՐ
+- name: Հայելիներ
   products:
     - img: 1HAYELI.jpg
       name: SCHULLER
@@ -698,7 +698,7 @@
       name: SCHULLER
     - img: 12HAYELI.jpg
       name: SCHULLER
-- name: ԿԱՀՈՒՅՔՆԵՐ և ՍԵՂԱՆՆԵՐ
+- name: Կահույքներ և սեղաններ
   products:
     - img: 1MEBEL.jpg
       name: SCHULLER
@@ -746,6 +746,35 @@
       name: SCHULLER
     - img: 23MEBEL.jpg
       name: SCHULLER
+- name: ինտերիերի զարդեր
+  products:
+    - img: 1inter.jpg
+      name: SCHULLER
+    - img: 2inter.jpg
+      name: SCHULLER
+    - img: 3inter.jpg
+      name: SCHULLER
+    - img: 4inter.jpg
+      name: SCHULLER
+    - img: 5inter.jpg
+      name: SCHULLER
+    - img: 6inter.jpg
+      name: SCHULLER
+    - img: 7inter.jpg
+      name: SCHULLER
+    - img: 8inter.jpg
+      name: SCHULLER
+    - img: 9inter.jpg
+      name: SCHULLER
+    - img: 10inter.jpg
+      name: SCHULLER
+    - img: 11inter.jpg
+      name: SCHULLER
+    - img: 12inter.jpg
+      name: SCHULLER
+    - img: 13inter.jpg
+      name: SCHULLER
+      
    
       
       
