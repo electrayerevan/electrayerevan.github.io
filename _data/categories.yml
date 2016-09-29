@@ -187,7 +187,7 @@
     - img: nova.jpg
       name: NOVA
     - img: on.jpg
-      name: on.
+      name: 'ON'
     - img: onda.jpg
       name: ONDA
     - img: opera_sb3.jpg
