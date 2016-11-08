@@ -3,7 +3,7 @@
 	{% assign slug = '/' %}
 {% endif %}
 
-{% assign currentPage = layout.pagename | append: '/' | prepend: '/' %}
+{% assign currentPage = layout.pagename | prepend: '/' %}
 {% if layout.pagename == 'home' %}
 	{% assign currentPage = '/' %}
 {% endif %}
