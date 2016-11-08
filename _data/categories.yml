@@ -1,4 +1,6 @@
-- name: Ջահեր
+- am: Ջահեր
+  en: Сhandeliers
+  ru: Люстры
   products:
     - img: alexander.jpg
       name: ALEXANDER
@@ -204,7 +206,10 @@
       name: PRIZMA
     - img: pulsar.jpg
       name: PULSAR
-- name: Վարդակներ
+
+- am: Վարդակներ
+  en: Switches
+  ru: Розетки
   products:
     - img: taktil1.png
       name: VIMAR
@@ -349,7 +354,9 @@
     - img: eikon_evo_75.jpg
       name: VIMAR
       
-- name: Լուսամփոփներ
+- am: Լուսամփոփներ
+  en: Table lamps
+  ru: Настольные лампы
   products:
     - img: BABYLONTL1.jpg
       name: BABYLON
@@ -413,7 +420,10 @@
       name: VOGA
     - img: wally_tl1_nero_zo_425x425.jpg
       name: WALLY
-- name: Տորշերներ
+
+- am: Տորշերներ
+  en: Floor lamp
+  ru: Торшеры
   products:
     - img: accademy_pt1_zo_425x425.jpg
       name: ACCADEMY
@@ -465,7 +475,10 @@
       name: RECCAGNI ANGELO
     - img: torsher.jpg
       name: RECCAGNI ANGELO
-- name: Ապահովիչներ
+
+- am: Ապահովիչներ
+  en: Brackers
+  ru: Автоматические выключатели
   products:
     - img: ABBpic.jpg
       name: ABB
@@ -504,7 +517,9 @@
     - img: 63A.jpg
       name: ABB
     
-- name: Պատի լուսատուներ
+- am: Պատի լուսատուներ
+  en: Wall lamps
+  ru: Бра
   products:
     - img: admiral_ap1_zo_425x425ap2.jpg
       name: Admiral
@@ -630,7 +645,10 @@
       name: TERRY AP2
     - img: verdiap2.jpg
       name: VERDI AP2
-- name: Լամպեր
+
+- am: Լամպեր
+  en: Bulbs
+  ru: Лампочки
   products:
     - img: e144wfrovi.jpg
       name: SCHULLER
@@ -719,7 +737,9 @@
     - img: strip1.jpg
       name: IDEAL-LUX
       
-- name: Հայելիներ
+- am: Հայելիներ
+  en: Mirrors
+  ru: Зеркала
   products:
     - img: 1HAYELI.jpg
       name: SCHULLER
@@ -745,7 +765,10 @@
       name: SCHULLER
     - img: 12HAYELI.jpg
       name: SCHULLER
-- name: Կահույքներ և սեղաններ
+
+- am: Կահույք
+  en: Furniture
+  ru: Мебель
   products:
     - img: 1MEBEL.jpg
       name: SCHULLER
@@ -793,7 +816,10 @@
       name: SCHULLER
     - img: 23MEBEL.jpg
       name: SCHULLER
-- name: ինտերիերի զարդեր
+
+- am: Ինտերիերի զարդեր
+  en: Home decor
+  ru: Оформление интерьера
   products:
     - img: 1inter.jpg
       name: SCHULLER
@@ -821,8 +847,6 @@
       name: SCHULLER
     - img: 13inter.jpg
       name: SCHULLER
-      
-   
-      
-      
-      
+
+
+

@@ -1,0 +1,54 @@
+products:
+  am: Ապրանքների ցանկ
+  en: Products
+  ru: Каталог
+
+aboutus:
+  am: Մեր մասին
+  en: About us
+  ru: О нас
+
+contactus:
+  am: Հետադարձ կապ
+  en: Contact us
+  ru: Контакты
+
+slidertext:
+  am: 'Իտալական և իսպանական ջահերի և վարդակների մասնագիտացված խանութ:'
+  en: 'Specialized shop of spanish and italian lights and switches.'
+  ru: 'Специализорованный магазин итальянских и испанских люстр и розеток.'
+
+brands:
+  am: Մեր ապրանքանիշները
+  en: Our brands
+  ru: Наши бренды
+
+aboutdescription:
+  am: 'Մեր կազմակերպությունը ստեղծվել է 1996 թվականին։ Կազմակերպության գործունեության հիմնական ուղղությունը հանդիսանում է էլեկտրական սարքերի, լուսատեխնիկական սարքերի լամպերի վաճառքը։ Մեր կազմակերպությունը հանդիսանում է VIMAR, IDEAL-LUX, GUMARCRISS, SCHULLER, RECCAGNI ANGELO կազմակերպությունների ներկրողը։'
+  en: 'Our company was founded in 1996. We are specialized in selling electrical appliances, lamps, lighting. We are the distributor of brands like VIMAR, IDEAL-LUX, GUMARCRISS, SCHULLER, RECCAGNI ANGELO.'
+  ru: 'Наша компания была основана в 1996 году. Основным направлением деятельности является продажа электрических приборов, ламп, осветительных приборов. Мы являемся дистрибютором таких брендов как VIMAR, IDEAL-LUX, GUMARCRISS, SCHULLER, RECCAGNI ANGELO.'
+
+branches:
+  am: Մեր մասնաճյուղերը
+  en: Our branches
+  ru: Наши филиалы
+
+writeus:
+  am: Հարցերի և առաջարկների համար գրեք մեզ <a href="mailto:info@electra.am">info@electra.am</a> հասցեով։
+  en: For any questions or inquiries feel free to cantact us by this address <a href="mailto:info@electra.am">info@electra.am</a>. 
+  ru: Для получения дополнительной информации, пожалуйста, напишите нам по адресу <a href="mailto:info@electra.am">info@electra.am</a>.
+
+address_char:
+  am: Չարենցի 40, Երևան 0025, Հայաստան
+  en: 40 Charents St., Yerevan 0025, Armenia
+  ru: Чаренца 40, Ереван 0025, Армения
+
+address_aleq:
+  am: Ալեք Մանուկյան 17, Երևան 0070, Հայաստան
+  en: 17 Aleq Manukyan St., Yerevan 0070, Armenia
+  ru: Алека Манукяна 17, Ереван 0070, Армения
+
+phone:
+  am: Հեռ.` 
+  en: Tel. 
+  ru: Тел. 

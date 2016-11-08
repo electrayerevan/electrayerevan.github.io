@@ -1,0 +1,46 @@
+---
+layout: default
+pagename: products
+---
+
+{% include navigation.html %}
+
+<div class="container page-body">
+	<div class="row">
+		<div class="col-lg-2 col-md-1"></div>
+		<div class="col-lg-8 col-md-10">
+			<div role="tabpanel">
+				<ul class="nav nav-tabs" role="tablist">
+					{% for category in site.data.categories %}
+					<li role="presentation" class="{% if forloop.index ==  1 %}active{% endif %}">
+						<a href="#cat{{ forloop.index }}" aria-controls="cat{{ forloop.index }}" role="tab" data-toggle="tab">{{ category[page.language] }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<div id="myTabContent" class="tab-content">
+				{% for category in site.data.categories %}
+				<div role="tabpanel" class="tab-pane fade {% if forloop.index ==  1 %}active in{% endif %}" id="cat{{ forloop.index }}" aria-labelledby="home-tab">
+
+					{% for product in category.products %}
+					<div class="col-md-3 col-sm-6 col-xs-12 img-container">
+						<a href="/img/products/{{ product.img }}" alt="{{ product.name }}">
+							<div class="box">
+								<div class="img-wrapper">
+									<img src="/img/products/{{ product.img }}">
+								</div>
+							</div>
+							<p>{{ product.name }}</p>
+						</a>
+					</div>
+					{% endfor %}
+
+				</div>
+				{% endfor %}
+			</div>
+
+			<div class="col-lg-2 col-md-1"></div>
+		</div>
+	</div>
+</div>

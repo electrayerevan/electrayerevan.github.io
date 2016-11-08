@@ -150,7 +150,7 @@ $(function() {
 		};
 
 
-	var selectorF = '.box a';
+	var selectorF = '.img-container a';
 	var instanceF = $( selectorF ).imageLightbox({
 		onStart:		function() { 
 			overlayOn(); 
