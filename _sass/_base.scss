@@ -324,6 +324,13 @@ body {
         margin-bottom: 20px;
     }
 
+    .about-description {
+        @media (max-width: 767px) {
+            text-align: justify;
+            margin-top: 15px;
+        }
+    }
+
     .partners-block {
         a, a:hover {
             text-decoration: none;
