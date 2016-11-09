@@ -24,7 +24,7 @@ pagename: products
 				<div role="tabpanel" class="tab-pane fade {% if forloop.index ==  1 %}active in{% endif %}" id="cat{{ forloop.index }}" aria-labelledby="home-tab">
 
 					{% for product in category.products %}
-					<div class="col-md-3 col-sm-6 col-xs-12 img-container">
+					<div class="col-md-3 col-sm-4 col-xs-12 img-container">
 						<a href="/img/products/{{ product.img }}" alt="{{ product.name }}">
 							<div class="box">
 								<img src="/img/products/{{ product.img }}">
