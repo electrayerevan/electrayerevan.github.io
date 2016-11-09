@@ -238,10 +238,30 @@ body {
 }
 .nav-tabs {
     text-align: center;
+    position: relative;
+    border-bottom: none;
 
     & > li {
         float: none;
         display: inline-block;
+        position: static;
+
+        &.active {
+
+            &:after {
+                content: "";
+                position: absolute;
+                border-bottom: 1px solid #ddd;
+                margin-top: -1px;
+                width: 100%;
+                left: 0;
+            }
+
+            & > a {
+                position: relative;
+                z-index: 2;
+            }
+        }
     }
 }
 
