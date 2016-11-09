@@ -216,7 +216,14 @@ body {
 
 
 .page-body {
+    padding-bottom: 80px;
     padding-top: 90px;
+    min-height: 100%;
+    position: relative;
+
+    &.contact-page {
+        padding-bottom: 50px;
+    }
 }
 .other-page-header .navbar-toggle .icon-bar {
     background-color: #A0A0A0;
@@ -335,6 +342,9 @@ body {
             a {
                 display: block;
                 margin: 15px 0;
+                img {
+                    padding: 0;
+                }
             }
         }
     }
@@ -364,6 +374,16 @@ body {
     }
 }
 
+.copyright {
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    color: rgba(33, 33, 33, 0.79);
+    font-size: 12px;
+    font-weight: bold;
+}
 
 @media (min-width: 992px) and (max-width: 1215px) {
     .carousel-caption > .container {
