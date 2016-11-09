@@ -236,6 +236,14 @@ body {
     color: #B5B5B5;
     font-size: 15px;
 }
+.nav-tabs {
+    text-align: center;
+
+    & > li {
+        float: none;
+        display: inline-block;
+    }
+}
 
 
 .menu-list li.lang-btn.first {
