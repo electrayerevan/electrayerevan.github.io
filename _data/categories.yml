@@ -331,7 +331,7 @@
       name: VIMAR (EIKON)
     - img: eikon 3.jpg
       name: VIMAR (EIKON)
-      - img:eikon 5.jpg
+    - img: eikon 5.jpg
       name: VIMAR (EIKON)
     - img: eikon 4.jpg
       name: VIMAR (EIKON)
@@ -373,8 +373,32 @@
       name: VIMAR (EIKON)
     - img: eikon 25.jpg
       name: VIMAR (EIKON)
-    - img: eikon 22.jpg
-      name: VIMAR 
+    - img: vimar-eikon-21653_70-21512_1_b-controllo-carichi.jpg
+      name: VIMAR (EIKON)
+    - img: vimar-eikon-21662_70-musica.jpg
+      name: VIMAR (EIKON TAKTIL)
+    - img: vimar-eikon-21662_73-diff-sonora.jpg
+      name: VIMAR (EIKON TAKTIL)
+    - img: vimar-eikon-21663_70-comandi-domotici-azzurri
+      name: VIMAR (EIKON TAKTIL)
+    - img: vimar-eikon-21664_70-on-off-tapparelle-musica-irrigazione
+      name: VIMAR (EIKON TAKTIL)
+    - img: vimar-eikon-21664_76-tapparelle-luci.jpg 
+      name: VIMAR (EIKON TAKTIL)
+    - img: vimar-eikon-21665_11-21553_2-chiamata-videocitofonica.jpg
+      name: VIMAR (EIKON)
+    - img: vimar-eikon-21665_70-21553_2-videosorveglianza-giardino.jpg
+      name: VIMAR (EIKON)
+    - img: vimar-eikon-21665_76-21553_2-meteo.jpg
+      name: VIMAR (EIKON)
+    - img: vimar-eikon-21665_76-21553_2-videomessaggi.jpg
+      name: VIMAR (EIKON)
+    - img: vimar-eikon-21668_70-21554_bn-acqua-calda.jpg
+      name: VIMAR (EIKON)
+    - img: vimar-eikon-21668_76-21511_1-monitoraggio-energia.jpg
+      name: VIMAR (EIKON)
+    - img: vimar-eikon-knx-21666_76.jpg
+      name: VIMAR (EIKON TAKTIL)
     - img: eikon 22.jpg
       name: VIMAR
     - img: eikon 22.jpg
@@ -391,6 +415,12 @@
       name: VIMAR
     - img: eikon 22.jpg
       name: VIMAR
+    - img: eikon 22.jpg
+      name: VIMAR
+    - img: eikon 22.jpg
+      name: VIMAR- img: 
+      
+      
       
 - am: Լուսամփոփներ
   en: Table lamps
