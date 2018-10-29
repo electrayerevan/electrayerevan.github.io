@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-filter-by": "^1.2.0",
+    "gulp-imagemin": "^4.1.0",
+    "imagemin-mozjpeg": "^7.0.0"
+  }
+}
