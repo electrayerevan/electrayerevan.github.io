@@ -1,6 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
+dist
+dist2
 
 node_modules
 lib-cov
