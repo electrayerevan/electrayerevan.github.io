@@ -3,6 +3,11 @@ products:
   en: Products
   ru: Каталог
 
+videos:
+  am: Տեսադարան
+  ru: Галерея
+  en: Videos
+
 aboutus:
   am: Մեր մասին
   en: About us
@@ -57,3 +62,4 @@ copyright:
   am: Բոլոր իրավունքները պաշտպանված են
   ru: Все права защищены
   en: Copyright
+

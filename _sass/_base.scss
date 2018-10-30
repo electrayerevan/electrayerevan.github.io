@@ -356,6 +356,14 @@ body {
         }
     }
 }
+.embed-responsive {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    iframe  {
+        box-shadow: 0px -1px 20px 2px rgba(0, 0, 0, 0.37);
+        background-color: rgba(242, 242, 242, 0.89);
+    }
+}
 
 .contact-page {
     .contact-us {
@@ -445,10 +453,23 @@ body {
     }
 }
 
+@media (max-width: 1200px) and (min-width: 991px) {
+    .menu-list li a {
+        padding: 15px 10px;
+    }
+}
 @media (max-width: 991px) and (min-width: 768px) {
     .menu-list li a {
-        font-size: 15px;
+        padding: 15px 10px;
+        font-size: 14px;
     }
+    .menu-list li.lang-btn.first {
+        margin-left: 0;
+    }
+    .electra-logo img {
+        height: 45px;
+    }
+    
 }
 
 @media (max-width: 350px) {
