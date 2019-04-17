@@ -2,6 +2,98 @@
   en: Сhandeliers
   ru: Люстры
   products:
+    - img: Adelyn.jpg
+      name: ADELIN
+    - img: Agrigento.jpg
+      name: AGRIGENTO
+    - img: Albi.jpg
+      name: ALBI
+    - img: Arco.jpg
+      name: ARCO
+    - img: Avion.jpg
+      name: AVION
+    - img: Baladona.jpg
+      name: BALADONA
+    - img: Bene.jpg
+      name: BENE
+    - img: Boccale2.jpeg
+      name: BOCCALE
+    - img: boccale.jpg
+      name: BOCCALE
+    - img: Boho.jpg
+      name: BOHO
+    - img: Bois.jpg
+      name: BOIS
+    - img: Bolichino.jpg
+      name: BOLICHINO
+    - img: Capri.jpg
+      name: CAPRI
+    - img: Chioto.jpg
+      name: CHIOTO
+    - img: Cia.jpg
+      name: CIA
+    - img: Cioto.jpg
+      name: CIOTO
+    - img: Creazione.jpg
+      name: CREAZIONE
+    - img: Darius.png
+      name: DARIUS
+    - img: Decenza.jpg
+      name: DECENZA
+    - img: Degli.jpg
+      name: DEGLI
+    - img: Elizabeth.jpg
+      name: ELIZABETH
+    - img: Era.jpg
+      name: ERA
+    - img: Ferrol.jpg
+      name: FERROL
+    - img: Gap.jpg
+      name: GAP
+    - img: Goccia.jpg
+      name: GOCCIA
+    - img: Hoop.jpg
+      name: HOOP
+    - img: Juliet.jpg
+      name: JULIET
+    - img: Kelly.jpg
+      name: KELLY
+    - img: Landon.jpg
+      name: LANDON
+    - img: Lungo.jpg
+      name: LUNGO
+    - img: Mollona.jpg
+      name: MOLLONA
+    - img: Nador.jpg
+      name: NADOR
+    - img: Noris.jpg
+      name: NORIS
+    - img: Orlando.jpg
+      name: ORLANDO
+    - img: Oro.jpg
+      name: ORO
+    - img: Perle.jpg
+      name: PERLE
+    - img: Pettine.jpg
+      name: PETTINE
+    - img: Pressione.jpg
+      name: PRESSIONE
+    - img: Rando.jpg
+      name: RANDO
+    - img: Sedile.jpg
+      name: SEDILE
+    - img: Thelta.jpg
+      name: THELTA
+    - img: Treccia.jpg
+      name: TRECCIA
+    - img: Trento.jpg
+      name: TRENTO
+    - img: Vegas.jpg
+      name: VEGAS
+    - img: Verona.jpg
+      name: VERONA
+    - img: Vienna.jpg
+      name: VIENNA
     - img: alexander.jpg
       name: ALEXANDER
     - img: accademy.jpg
