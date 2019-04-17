@@ -4,17 +4,17 @@
   products:
     - img: Adelio.jpg
       name: ADELIO
-      - img: Adelio1.jpg
+    - img: Adelio1.jpg
       name: ADELIO
-      - img: Celine.jpg
+    - img: Celine.jpg
       name: CELINE
-      - img: Destin.jpg
+    - img: Destin.jpg
       name: ADELIN
-      - img: Lyon.jpg
+    - img: Lyon.jpg
       name: LYON
-      - img:Rocia.jpg
+    - img:Rocia.jpg
       name: ROCIA
-      - img: Adelyn.jpg
+    - img: Adelyn.jpg
       name: ADELIN
     - img: Agrigento.jpg
       name: AGRIGENTO
