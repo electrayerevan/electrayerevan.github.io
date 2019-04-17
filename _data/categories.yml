@@ -662,19 +662,19 @@
   products:
     - img: Delicia2.jpg
       name: DELICIA
-      - img: Garcia2.jpg
+    - img: Garcia2.jpg
       name: GARCIA
-      - img: Mutanti2.jpg
+    - img: Mutanti2.jpg
       name: MUTANTI
-      - img: Signore2.jpg
+    - img: Signore2.jpg
       name: SIGNORE
-      - img: Stabile2.jpg
+    - img: Stabile2.jpg
       name: STABILE
-      - img: Traccia2.jpg
+    - img: Traccia2.jpg
       name: TRACCIA
-      - img: Zane2.jpg
+    - img: Zane2.jpg
       name: ZANE
-      - img: accademy_pt1_zo_425x425.jpg
+    - img: accademy_pt1_zo_425x425.jpg
       name: ACCADEMY
     - img: atlaspt1.jpg
       name: ATLAS
