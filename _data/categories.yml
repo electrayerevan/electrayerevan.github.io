@@ -573,6 +573,26 @@
   en: Table lamps
   ru: Настольные лампы
   products:
+    - img: Alicia1.jpg
+      name: ALICIA
+    - img: Cameron1.jpg
+      name: CAMERON
+    - img: Dunik1.png
+      name: DUNIK
+    - img: Juliet1.jpg
+      name: JULIET
+    - img: Lila1.jpg
+      name: LILA
+    - img: Marco1.jpg
+      name: MARCO
+    - img: Molla1.jpg
+      name: MOLLA
+    - img: Montes1.jpg
+      name: MONTES
+    - img: Rosia1.jpg
+      name: ROSIA
+    - img: Signore1.jpg
+      name: SIGNORE
     - img: BABYLONTL1.jpg
       name: BABYLON
     - img: COLORTL1.jpg
