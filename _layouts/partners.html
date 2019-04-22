@@ -12,7 +12,7 @@ pagename: partners
 			<div class="col-xs-12 partners-block">		
 				{% for partner in site.data.partners.[page.language] %}
 				<a href="{{ partner.url }}" target="_blank">
-					<div>{{ partner.url }}</div>
+					<div class="text-center"><img src="/img/partners/{{ partner.img }}" title="{{ partner.name }}"></div>
 				</a>
 				<p>{{ partner.description }}</p>
 				{% endfor %}
