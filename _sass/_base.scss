@@ -25,14 +25,15 @@
         display: block;
     }
 }
+* {
+    font-family: 'Roboto', 'Ghea Grapalat', sans-serif;
+}
 
 .container {
     max-width: 100%;
 }
 
-* {
-    font-family: 'Roboto', 'Ghea Grapalat', sans-serif;
-}
+
 .electra-logo, .electra-logo:hover, .electra-logo:focus  {
     text-decoration: none;
     padding: 0 15px;
