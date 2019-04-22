@@ -10,7 +10,7 @@
 
 
 <nav role="navigation" class="navbar navbar-fixed-top {% if layout.pagename != 'home' %}other-page-header{% endif %} home-page-header">
-	<div class="container">
+	<div class="container-fluid">
 	  	<div class="navbar-header">
 			<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 		        <span class="sr-only">Toggle navigation</span>
@@ -34,6 +34,7 @@
 				<li><a href="{{ slug }}products">{{ site.data.translations.products[page.language] }}</a></li>
 				<li><a href="{{ slug }}videos">{{ site.data.translations.videos[page.language] }}</a></li>
 				<li><a href="{{ slug }}aboutus">{{ site.data.translations.aboutus[page.language] }}</a></li>
+				<li><a href="{{ slug }}partners">{{ site.data.translations.partners[page.language] }}</a></li>
 				<li><a href="{{ slug }}contactus">{{ site.data.translations.contactus[page.language] }}</a></li>
 
 				<li class="hidden-xs lang-btn first"><a href="/en{{ currentPage }}">EN</a></li>

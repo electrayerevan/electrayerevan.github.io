@@ -1,0 +1,27 @@
+---
+layout: default
+pagename: partners
+---
+
+{% include navigation.html %}
+
+<div class="container page-body partner-page">
+	<div class="row">
+		<div class="col-lg-2 col-md-1"></div>
+		<div class="col-lg-8 col-md-10">
+			<div class="col-xs-12 partners-block">		
+				{% for partner in site.data.partners.[page.language] %}
+				<a href="{{ partner.url }}" target="_blank">
+					<div>{{ partner.url }}</div>
+				</a>
+				<p>{{ partner.description }}</p>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="col-lg-2 col-md-1"></div>
+	</div>
+
+	{% include copyright.html %}
+</div>
+

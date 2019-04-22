@@ -313,7 +313,7 @@ body {
 .about-page {
 
     h2 {
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 20px;
         @media (max-width: 767px) {
             text-align: center;
@@ -325,6 +325,10 @@ body {
     }
 
     .about-description {
+        font-size: 18px;
+        color: black;
+        margin: 30px 0 20px;
+
         @media (max-width: 767px) {
             text-align: justify;
             margin-top: 15px;
@@ -362,6 +366,31 @@ body {
     iframe  {
         box-shadow: 0px -1px 20px 2px rgba(0, 0, 0, 0.37);
         background-color: rgba(242, 242, 242, 0.89);
+    }
+
+}
+.partner-page {
+    .partners-block {
+        a {
+            &:hover {
+                text-decoration: none;
+
+                div {
+                    color: #fde15c;
+                }
+            }
+            div {
+                transition: all 0.2s ease-in-out;
+                font-size: 20px;
+                margin-bottom: 10px;
+                margin-top: 20px;
+                color: black;
+            }
+        }
+        p {
+            font-size: 16px;
+            color: #B5B5B5;
+        }
     }
 }
 
@@ -455,13 +484,14 @@ body {
 
 @media (max-width: 1200px) and (min-width: 991px) {
     .menu-list li a {
-        padding: 15px 10px;
+        padding: 15px 5px;
+        font-size: 16px;
     }
 }
 @media (max-width: 991px) and (min-width: 768px) {
     .menu-list li a {
-        padding: 15px 10px;
-        font-size: 14px;
+        padding: 15px 7px;
+        font-size: 12px;
     }
     .menu-list li.lang-btn.first {
         margin-left: 0;
