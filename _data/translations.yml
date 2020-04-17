@@ -1,5 +1,5 @@
 products:
-  am: Ապրանքների ցանկ
+  am: Ապրանքներ
   en: Products
   ru: Каталог
 
@@ -22,6 +22,11 @@ contactus:
   am: Հետադարձ կապ
   en: Contact us
   ru: Контакты
+
+shop:
+  am: Առցանց խանութ
+  en: Online shop
+  ru: Магазин
 
 slidertext:
   am: 'Իտալական և իսպանական ջահերի, բռնակների և վարդակների մասնագիտացված խանութ:'
