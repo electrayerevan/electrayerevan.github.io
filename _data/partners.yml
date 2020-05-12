@@ -17,6 +17,9 @@ am:
 - url: "http://emibig.com.pl/"
   img: emibig.png
   name: Emibig
+- url: "https://www.sicma.net/"
+  img: sicma.png
+  name: Sicma Maniglie
 
 ru: 
 - url: "http://www.vimar.com/"
@@ -37,6 +40,9 @@ ru:
 - url: "http://emibig.com.pl/"
   img: emibig.png
   name: Emibig
+- url: "https://www.sicma.net/"
+  img: sicma.png
+  name: Sicma Maniglie
 
 
 en:
@@ -64,3 +70,7 @@ en:
   img: emibig.png
   name: Emibig
   description: “EMIBIG” Firm is a family business, manufacturing lamps since 2004. We make classic look and modern light fittings based on our own designs, at attractive prices.  Our offer is constantly developed by adding new and interesting designs according to the latest trends. We distribute lighting equipment throughout Poland and abroad.  Here we present our latest collection. 
+- url: "https://www.sicma.net/"
+  img: sicma.png
+  name: Sicma Maniglie
+  description: For over eighty years the Ghidini family has operated successfully in the field of doorhandles,constantly following those two guidelines that have always distinguished their products over the years: the harmonic union of tradition and innovation and careful attention to their qualitative aspect.
