@@ -12,9 +12,23 @@ $(function() {
 		nextArrow: ".right.carousel-control"
 	});
 
+	$('.nav-tabs > li.active a').each(function (i, el) {
+		var catId = el.getAttribute('href');
+		loadTabImages(catId);
+	});
+
+	$('.nav-tabs > li a').on('show.bs.tab', function (e) {
+		var catId = e.target.getAttribute('href');
+		loadTabImages(catId);
+	});
 
 
-
+	function loadTabImages(id) {
+		$(id).find('img[data-src]').each(function (i, el) {
+			el.src = el.dataset.src;
+			el.removeAttribute('data-src');
+		});
+	}
 
 		// ACTIVITY INDICATOR
 
