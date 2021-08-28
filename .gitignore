@@ -3,6 +3,8 @@ _site
 .jekyll-metadata
 dist
 dist2
+.jekyll-cache
+vendor
 
 node_modules
 lib-cov

@@ -7,19 +7,16 @@ pagename: partners
 
 <div class="container page-body partner-page">
 	<div class="row">
-		<div class="col-lg-2 col-md-1"></div>
-		<div class="col-lg-8 col-md-10">
-			<div class="col-xs-12 partners-block">		
-				{% for partner in site.data.partners.[page.language] %}
-				<a href="{{ partner.url }}" target="_blank">
-					<div class="text-center"><img src="/img/partners/{{ partner.img }}" title="{{ partner.name }}"></div>
-				</a>
-				<p>{{ partner.description }}</p>
-				{% endfor %}
-			</div>
+
+		<div class="col-xs-12 partners-block">
+			{% for partner in site.data.partners[page.language] %}
+			<a href="{{ partner.url }}" target="_blank" {% if partner.large %}class="large"{% endif %}>
+				<img alt="{{ partner.description }}" src="/img/partners/{{ partner.img }}" title="{{ partner.name }}" />
+			</a>
+			<!-- <p>{{ partner.description }}</p> -->
+			{% endfor %}
 		</div>
 
-		<div class="col-lg-2 col-md-1"></div>
 	</div>
 
 	{% include copyright.html %}

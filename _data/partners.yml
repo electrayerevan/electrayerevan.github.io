@@ -1,71 +1,111 @@
 am:
-- url: "http://www.vimar.com/"
+- url: "https://www.vimar.com/"
   img: vimar.png
   name: Vimar
+  large: true
 - url: "https://novaluce.gr/"
   img: "novaluce_logo.png"
   name: Nova Luce
-- url: "http://reccagniangelo.com"
+- url: "https://reccagniangelo.com"
   img: reccagni_angelo.png
   name: Reccagni Angelo
-- url: "http://schuller.es/"
+- url: "https://schuller.es/"
   img: schuller.gif
   name: Sculler
-- url: "http://www.ideal-lux.com/"
+- url: "https://ideal-lux.com/"
   img: ideal_lux.jpg
   name: Ideal Lux
-- url: "http://emibig.com.pl/"
+- url: "https://emibig.com.pl/"
   img: emibig.png
   name: Emibig
 - url: "https://www.sicma.net/"
   img: sicma.png
   name: Sicma Maniglie
+- url: "https://ento.it"
+  img: ento.png
+  name: Ento
+- url: "https://cisa.it"
+  img: cisa.png
+  name: CISA
+- url: "https://mottura.it"
+  img: mottura.png
+  name: MOTTURA
+- url: "https://abb.com"
+  img: abb.png
+  name: ABB
+- url: "https://salicepaolo.it"
+  img: salicepaolo.png
+  name: Salice Paolo
+- url: "https://agb.it"
+  img: agb.png
+  name: AGB
 
 ru: 
-- url: "http://www.vimar.com/"
+- url: "https://www.vimar.com/"
   img: vimar.png
   name: Vimar
+  large: true
 - url: "https://novaluce.gr/"
   img: "novaluce_logo.png"
   name: Nova Luce
-- url: "http://reccagniangelo.com"
+- url: "https://reccagniangelo.com"
   img: reccagni_angelo.png
   name: Reccagni Angelo
-- url: "http://schuller.es/"
+- url: "https://schuller.es/"
   img: schuller.gif
   name: Sculler
-- url: "http://www.ideal-lux.com/"
+- url: "https://www.ideal-lux.com/"
   img: ideal_lux.jpg
   name: Ideal Lux
-- url: "http://emibig.com.pl/"
+- url: "https://emibig.com.pl/"
   img: emibig.png
   name: Emibig
 - url: "https://www.sicma.net/"
   img: sicma.png
   name: Sicma Maniglie
+- url: "https://ento.it"
+  img: ento.png
+  name: Ento
+- url: "https://cisa.it"
+  img: cisa.png
+  name: CISA
+- url: "https://mottura.it"
+  img: mottura.png
+  name: MOTTURA
+- url: "https://abb.com"
+  img: abb.png
+  name: ABB
+- url: "https://salicepaolo.it"
+  img: salicepaolo.png
+  name: Salice Paolo
+- url: "https://agb.it"
+  img: agb.png
+  name: AGB
+
 
 en:
-- url: "http://www.vimar.com/"
+- url: "https://www.vimar.com/"
   img: vimar.png
   name: Vimar
+  large: true
   description: The history of such a distinguished "old-timers" in the market of electrical equipment, like Vimar, originates in 1945 in Italy. This company has overcome a peculiar path of development, providing the attention of the whole world to such familiar interior items as switches, sockets and other elements of electrical equipment with the finishing of their outer surfaces with various natural materials, made in the highest quality and various color solutions.
 - url: "https://novaluce.gr/"
   img: "novaluce_logo.png"
   name: Nova Luce
   description: Light is the secret ingredient of our identity, indicates who we are and what we stand for. Coming from different backgrounds, economists, interior designers, artists and graphic designers we use the main ingredient of our country -Light- to compose Nova Luce. With persistence and belief in good design and high quality, we design and produce luminaries since 2007 for the Greek and European market presenting refreshing ideas for the aesthetics of any room. Seeking through forms and materials we end up choosing durable lighting fixtures, both classic and modern, that transform any space into something special! 
-- url: "http://reccagniangelo.com"
+- url: "https://reccagniangelo.com"
   img: reccagni_angelo.png
   name: Reccagni Angelo
   description: Since 1968, the company has been producing decorative chandeliers with very valuable components. Solid brass, glass and wood are essential in our production, like hand-made metal polishing. 
-- url: "http://schuller.es/"
+- url: "https://schuller.es/"
   img: schuller.gif
   name: Sculler
   description: Looking back, we remember how in Valencia in 1967, Ricardo W. Schuller founded the lighting manufacturing company Metales Artísticos Schuller. A few years later, we grew and expanded to also manufacture furniture and decoration products, which would round out our full decoration offerings. Fifty years later, under the brand name SCHULLER SL, we are proud to have become a major player in the lighting and decoration sector.
-- url: "http://www.ideal-lux.com/"
+- url: "https://www.ideal-lux.com/"
   img: ideal_lux.jpg
   name: Ideal Lux
   description: Founded in 1974, Ideal Lux is born as a small reality led by the intuition of creating a current product, but at the same time affordable for a wide bracket of public, a target that is still being pursued today. Our ambition is to keep into one unique brand the widest variety possible of styles, adequate to the trends of the sector, which is able to range from the classic decorative style to the modern one, from outdoor products to the technical ones
-- url: "http://emibig.com.pl/"
+- url: "https://emibig.com.pl/"
   img: emibig.png
   name: Emibig
   description: “EMIBIG” Firm is a family business, manufacturing lamps since 2004. We make classic look and modern light fittings based on our own designs, at attractive prices.  Our offer is constantly developed by adding new and interesting designs according to the latest trends. We distribute lighting equipment throughout Poland and abroad.  Here we present our latest collection. 
@@ -73,3 +113,21 @@ en:
   img: sicma.png
   name: Sicma Maniglie
   description: "For over eighty years the Ghidini family has operated successfully in the field of doorhandles,constantly following those two guidelines that have always distinguished their products over the years: the harmonic union of tradition and innovation and careful attention to their qualitative aspect."
+- url: "https://ento.it"
+  img: ento.png
+  name: Ento
+- url: "https://cisa.it"
+  img: cisa.png
+  name: CISA
+- url: "https://mottura.it"
+  img: mottura.png
+  name: MOTTURA
+- url: "https://abb.com"
+  img: abb.png
+  name: ABB
+- url: "https://salicepaolo.it"
+  img: salicepaolo.png
+  name: Salice Paolo
+- url: "https://agb.it"
+  img: agb.png
+  name: AGB
