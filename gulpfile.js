@@ -3,16 +3,22 @@ const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 const imageResize = require('gulp-image-resize');
 
-gulp.task('mozjpeg', () =>
-	gulp.src('img/**/*.jpg')
+
+function yesterday() {
+	const date = new Date();
+	return date.setDate(date.getDate() - 1);
+}
+
+function mozjpeg() {
+	return gulp.src('img/**/*.jpg', { since: yesterday() })
 		.pipe(imagemin([imageminMozjpeg({
 			quality: 85
 		})]))
 		.pipe(gulp.dest('dist'))
-);
+}
 
-gulp.task('cover', function () {
-	gulp.src('img/products/*.jpg')
+function cover() {
+	return gulp.src('img/products/*.jpg')
 		.pipe(imageResize({
 			width: 1000,
 			height: 1000,
@@ -22,10 +28,10 @@ gulp.task('cover', function () {
 			imageMagick: true
 		}))
 		.pipe(gulp.dest('dist'));
-});
+};
 
-gulp.task('coverWidth', function () {
-	gulp.src('dist/*.jpg')
+function coverWidth() {
+	return gulp.src('dist/*.jpg')
 		.pipe(imageResize({
 			width: 1000,
 			upscale: false,
@@ -34,10 +40,10 @@ gulp.task('coverWidth', function () {
 			imageMagick: true
 		}))
 		.pipe(gulp.dest('dist2'));
-});
+}
 
-gulp.task('resize', function () {
-	gulp.src('img/products/*.png')
+function resize() {
+	return gulp.src('img/products/*.png')
 		.pipe(imageResize({
 			height: 1000,
 			upscale: false,
@@ -53,6 +59,9 @@ gulp.task('resize', function () {
 			imageMagick: true
 		}))
 		.pipe(gulp.dest('dist2'));
-});
+};
 
-
+exports.mozjpeg = mozjpeg;
+exports.cover = cover;
+exports.coverWidth = coverWidth;
+exports.resize = resize;
