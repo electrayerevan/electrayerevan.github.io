@@ -39,6 +39,18 @@ am:
 - url: "https://agb.it"
   img: agb.png
   name: AGB
+- url: "https://convexdesign.gr"
+  img: convex.png
+  name: Convex
+- url: "https://divinare.ru"
+  img: divinare.svg
+  name: Divinare
+- url: "https://www.osram.com"
+  img: osram.svg
+  name: OSRAM
+- url: "https://artelamp.ru"
+  img: arte_lamp.svg
+  name: ARTE LAMP
 
 ru: 
 - url: "https://www.vimar.com/"
@@ -81,6 +93,18 @@ ru:
 - url: "https://agb.it"
   img: agb.png
   name: AGB
+- url: "https://convexdesign.gr"
+  img: convex.png
+  name: Convex
+- url: "https://divinare.ru"
+  img: divinare.svg
+  name: Divinare
+- url: "https://www.osram.com"
+  img: osram.svg
+  name: OSRAM
+- url: "https://artelamp.ru"
+  img: arte_lamp.svg
+  name: ARTE LAMP
 
 
 en:
@@ -131,3 +155,15 @@ en:
 - url: "https://agb.it"
   img: agb.png
   name: AGB
+- url: "https://convexdesign.gr"
+  img: convex.png
+  name: Convex
+- url: "https://divinare.ru"
+  img: divinare.svg
+  name: Divinare
+- url: "https://www.osram.com"
+  img: osram.svg
+  name: OSRAM
+- url: "https://artelamp.ru"
+  img: arte_lamp.svg
+  name: ARTE LAMP
